@@ -1,6 +1,6 @@
 # Strategisches Design
 Beim Strategischen Design werden die "groben" Grundlagen geschaffen, für die spätere Detailarbeit. Es sollen die Haupt-Domänen und Sub-Domänen herausgearbeitet werden, die wichtig für das Unternehmen sind und voneinander abgegrenzt werden.
-
+![Strategisches Design Roadmap](image/sd/roadmap.png "Strategisches Design Roadmap")
 
 ## Strategisches Design Schritt für Schritt
 1. Bounded Context herausarbeiten
