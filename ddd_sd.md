@@ -41,3 +41,39 @@ Beim Strategischen Design werden die "groben" Grundlagen geschaffen, für die sp
   * Die Haupt-Domäne sollte nicht nur auf Substantive eingeschränkt werden
   * Konkrete Szenarien erstellen, welche das Domänenmodell beschreiben und wie es funktioniert
   * Bilder, Tabelle oder Diagramme nutzen, diese sollen aber nicht aufhalten
+
+## Context Mapping
+
+### Partnerschaft
+![Partnerschaft](image/sd/partnerschaft.png "Partnerschat")
+* Zwei Teams die an einem Bounded Context arbeiten
+* Erfolg oder Misserfolg kann nur gemeinsam erreicht werden
+* Synchronisation der beiden Teams intensiv
+* Partnerschaft nur so lange beibehalten, wie nötig
+
+### Shared Kernel
+![Shared Kernel](image/sd/sharedKernel.png "Shared Kernel")
+* Zwei oder mehrere Teams teilen sich ein gemeinsames Modell
+* Einigkeit darüber was im Modell stehen soll
+* Ein Team übernimmt die Pflege
+
+### Customer-Supplier
+![LieferantKunde](image/sd/LieferantKunde.png "Lieferant-Kunde")
+* Upstream (Lieferant) - Downstream (Kunde)
+* Abhängigkeit vom Lieferanten
+  
+### Conformist
+* Gleiche Beziehung wie beim Customer-Supplier nur mit dem Unterschied, dass der Lieferant keine Motivation hat, auf Anforderungen einzugehen
+* Kunde passt sich an das Modell des Lieferanten an
+
+### Anticorruption Layer
+* Eine Art "Übersetzung" wird vom Kunden erstellt
+* Überführt/Übersetzt die beiden Modelle
+
+### Open Host Service
+* Jeder kann den Bounded Context verwenden und dieser ist relativ leicht integriebar
+* Schnittstelle sollte gut dokumentiert sein
+
+### Separate Ways
+* Es besteht kein Nutzen darin das andere Modell zu nutzen
+* Jedes Team hat seinen eigenen Bounded
