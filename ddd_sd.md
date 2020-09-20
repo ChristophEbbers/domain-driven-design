@@ -3,10 +3,10 @@ Beim Strategischen Design werden die "groben" Grundlagen geschaffen, für die sp
 ![Strategisches Design Roadmap](image/sd/roadmap.png "Strategisches Design Roadmap")
 
 ## Strategisches Design Schritt für Schritt
-1. Bounded Context herausarbeiten
-2. Eine Ubiquitous Language entwerfen
-3. Einbinden von Domänen-Experten und Entwicklern
-4. Domänen schneiden in Core- und Sub-Domänen
+1. Eine Ubiquitous Language entwerfen
+2. Bounded Context herausarbeiten
+3. Dabei sind immer Domänen-Experten und Entwicklern
+4. Core-, Supporting- und Generic Domänen benennen
 5. Integration und Beziehungen mehrerer Bounded Contexts
 
 ## Definitionen
@@ -22,11 +22,11 @@ Beim Strategischen Design werden die "groben" Grundlagen geschaffen, für die sp
   * Begriff und Sprache sind allgegenwärtig und wird auf das Modell übertragen
   * Nicht mehrere Teams sollten an einem Bounded Context arbeiten
 
-* Haupt-Domäne
+* Core-Domäne
   * Ist das Herzstück des Unternehmens
   * Soll das Unternehmen einen Wettbewerbsvorteil gegenüber Konkurrenten bieten
-  * Fokus auf die Haupt-Domäne legen, man kann nicht in allen Bereichen gut sein
-  * Sollte frei von Technologie sein
+  * Fokus auf die Core-Domäne legen, man kann nicht in allen Bereichen gut sein
+  * Jedes Domänenmodell sollte frei von Technologie sein
 
 
 ## Wozu benötigt man einen Bounded Context?
@@ -38,7 +38,7 @@ Beim Strategischen Design werden die "groben" Grundlagen geschaffen, für die sp
 
 
 ## Wie entsteht eine Ubiquitous Language?
-  * Die Haupt-Domäne sollte nicht nur auf Substantive eingeschränkt werden
+  * Die Core-Domäne sollte nicht nur auf Substantive eingeschränkt werden
   * Konkrete Szenarien erstellen, welche das Domänenmodell beschreiben und wie es funktioniert
   * Bilder, Tabelle oder Diagramme nutzen, diese sollen aber nicht aufhalten
 
